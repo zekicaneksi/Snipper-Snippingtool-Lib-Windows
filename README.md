@@ -70,7 +70,7 @@ Compiling:
 
 Use the makefile to compile snippingtool.cpp into object file (will be created in build folder). Makefile will also compile a manifest file (from src folder) into build folder. Link this manifest file to your application when compiling to make it dpi aware. Otherwise with display's scaled platforms there will be zooming issues.
 
-(after compiling snippingtool.cpp)<br>
-(to compile the exampleMain.cpp with g++ )
+(after compiling snippingtool.cpp),<br>
+(to compile the exampleMain.cpp with g++ ):
 
 ``` g++ -o snipper.exe exampleMain.cpp build\snipper.o build\snipperManifest.res -lgdi32 ```
