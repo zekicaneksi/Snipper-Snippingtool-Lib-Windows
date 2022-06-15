@@ -1,5 +1,7 @@
 (works on windows only)
 
+![image](https://user-images.githubusercontent.com/59491631/173881879-90d29f2c-671c-4962-a791-276d81890f3a.png)
+
 Usage:
 
 Creating a new thread when using is advised because destructor of Snipper calls DestroyWindow() which may send WM_QUIT message to your application.
